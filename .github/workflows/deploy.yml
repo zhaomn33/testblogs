@@ -1,7 +1,7 @@
 name: Github Action
 
-on: # 监听pull_request
-  pull_request:
+on:
+  push:
    branches:
     - main
 
